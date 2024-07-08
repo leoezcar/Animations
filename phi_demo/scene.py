@@ -19,7 +19,7 @@ class first_scene(Scene):
         label_right = Text("x", font_size=30).next_to((start_point + between)/2, UP)
         label_mid = Text("1 - x", font_size=30).next_to((between + end_point)/2, UP)
         self.play(Write(brace_text),
-                  Write(label_right), 
+                  Write(label_right),
                   Write(label_mid),
                   Write(title)
                 )
@@ -33,7 +33,7 @@ class first_scene(Scene):
                           brace_text,
                           )
         self.wait(2)
-  
+
         equation_1 = MathTex(r"\frac{1}{x} = \frac{x}{1-x}")
         self.play(TransformMatchingShapes(first_all, equation_1))
         self.wait(2)
@@ -47,7 +47,7 @@ class first_scene(Scene):
         self.wait(2)
 
         title_2 = Text("Solución positiva de la función cuadrática", font_size = 24)
-        title_2.to_edge(UP) 
+        title_2.to_edge(UP)
         line1 = Text("a = 1", font_size=24)
         line2 = Text("b = 1", font_size=24)
         line3 = Text("c = -1", font_size=24)
@@ -59,7 +59,7 @@ class first_scene(Scene):
         quad = MathTex(r"\frac{-b \pm \sqrt{b^2 - 4ac}}{2a}=", font_size=48)
         self.play(TransformMatchingShapes(text_group, quad))
         self.wait(2)
-      
+
         quad_2 = MathTex(r"\frac{-1 \pm \sqrt{1^2 - 4.1.(-1)}}{2.1}=", font_size=48)
         self.play(TransformMatchingShapes(quad, quad_2))
         self.wait(1)
@@ -82,4 +82,4 @@ class first_scene(Scene):
 
         phi_symbol = MathTex(r"\varphi", font_size=120)
         self.play(TransformMatchingShapes(last, phi_symbol))
-        self.wait(2)        
+        self.wait(2)   

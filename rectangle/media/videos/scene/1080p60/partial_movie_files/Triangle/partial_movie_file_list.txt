@@ -1,0 +1,3 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/Leo/Desktop/Estudiar/Programación/Animations/rectangle/media/videos/scene/1080p60/partial_movie_files/Triangle/3977891868_721403162_223132457.mp4'
+file 'file:C:/Users/Leo/Desktop/Estudiar/Programación/Animations/rectangle/media/videos/scene/1080p60/partial_movie_files/Triangle/2852726489_3010092222_1112624048.mp4'

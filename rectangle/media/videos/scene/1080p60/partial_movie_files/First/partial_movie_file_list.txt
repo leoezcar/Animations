@@ -1,0 +1,5 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/Leo/Desktop/Estudiar/Programación/Animations/rectangle/media/videos/scene/1080p60/partial_movie_files/First/3977891868_1792788854_223132457.mp4'
+file 'file:C:/Users/Leo/Desktop/Estudiar/Programación/Animations/rectangle/media/videos/scene/1080p60/partial_movie_files/First/2852726489_3079754501_3106816346.mp4'
+file 'file:C:/Users/Leo/Desktop/Estudiar/Programación/Animations/rectangle/media/videos/scene/1080p60/partial_movie_files/First/2852726489_2382842580_390013725.mp4'
+file 'file:C:/Users/Leo/Desktop/Estudiar/Programación/Animations/rectangle/media/videos/scene/1080p60/partial_movie_files/First/2852726489_2870638689_81286360.mp4'
